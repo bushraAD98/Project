@@ -1,0 +1,147 @@
+@font-face {
+    font-family: ammanFont;
+    src: url(./alfont_com_AlFont_com_AmmanV3Sans-Light.otf) format('woff2');
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+    table {
+
+        text-indent: initial;
+        border-spacing: 2px;
+        font-size: 15px;
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    td {
+        display: table-cell;
+        vertical-align: inherit;
+        font-size: 10px;
+        white-space: nowr
+    }
+
+    .paragraph {
+        display: inline-block;
+        margin-right: 3px;
+        /* Add spacing between paragraphs if needed */
+        font-style: normal;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Arial, Times New Roman
+    }
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+    table {
+
+        text-indent: initial;
+        border-spacing: 2px;
+        font-size: 15px;
+        width: 100%;
+        border-collapse: collapse;
+
+    }
+
+    td {
+        display: table-cell;
+        vertical-align: inherit;
+        font-size: 10px;
+        white-space: nowrap;
+    }
+
+    .paragraph {
+        display: inline-block;
+        margin-right: 3px;
+        /* Add spacing between paragraphs if needed */
+        font-style: normal;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Arial, Times New Roman
+    }
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+table {
+
+    text-indent: initial;
+    border-spacing: 0px;
+    width: 50%;
+    height: 70%;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    padding: 8px;
+}
+
+.paragraph {
+    display: inline-block;
+    margin-right: 3px;
+    /* Add spacing between paragraphs if needed */
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Times New Roman
+}
+
+.bbigbrowntxt {
+    font-family: ammanFont, tahoma;
+    font-size: 22px;
+    color: #656569;
+    font-weight: bold;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.sitefont {
+    font-family: ammanFont, tahoma;
+    font-size: 13px;
+    color: #566676;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.btnconfirminputForm {
+
+    border-radius: 5px;
+    border-right: #1F273A 1px solid;
+    border-top: #1F273A 1px solid;
+    font-size: 15px;
+    border-left: #1F273A 1px solid;
+    width: 150px;
+    height: 25px;
+    border-bottom: #1F273A 1px solid;
+    font-family: ammanFont, tahoma;
+    font-weight: bold;
+    background-color: #e7e7e7;
+    color: #1F273A;
+    display: inline-block;
+    text-align: center;
+
+}
