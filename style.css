@@ -97,7 +97,7 @@ table {
 td {
     display: table-cell;
     vertical-align: inherit;
-    padding: 8px;
+    padding: 5px;
 }
 
 .paragraph {
@@ -113,15 +113,15 @@ td {
 .bbigbrowntxt {
     font-family: ammanFont, tahoma;
     font-size: 22px;
-    color: #656569;
-    font-weight: bold;
+    color: #41383C;
+    font-weight: bolder;
     text-decoration: none;
     white-space: nowrap;
 }
 
 .sitefont {
     font-family: ammanFont, tahoma;
-    font-size: 13px;
+    font-size: 20px;
     color: #566676;
     text-decoration: none;
     font-weight: normal;
@@ -135,7 +135,7 @@ td {
     font-size: 15px;
     border-left: #1F273A 1px solid;
     width: 150px;
-    height: 25px;
+    height: 20px;
     border-bottom: #1F273A 1px solid;
     font-family: ammanFont, tahoma;
     font-weight: bold;
