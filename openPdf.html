@@ -1,3 +1,34 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pdf</title>
+   
+</head>
+<body>
 
-<iframe src="./assets/تقرير فحص جودة العبوات.pdf" width="100%" height="600px"></iframe>
+    <div id="pdfViewer"></div>
+    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+    <script>
+        // Function to display PDF using PDF.js
+        function showPDF(pdfPath, container) {
+            var viewerContainer = document.getElementById(container);
+            var iframe = document.createElement('iframe');
+            iframe.src = 'https://mozilla.github.io/pdf.js/web/viewer.html' + './assets/file.pdf';
+            iframe.width = '100%';
+            iframe.height = '600px';
+            viewerContainer.appendChild(iframe);
+        }
+    </script>
+    
+    <!-- Call the function to display PDF -->
+    <script>
+        showPDF('./assets/file.pdf', 'pdfViewer');
+    </script>
+    
+    <!-- HTML container for the viewer -->
+
+</body>
+</html>
